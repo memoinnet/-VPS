@@ -14,6 +14,8 @@ VPS是Virtual Private Server的缩写，中文则为虚拟专用服务器，VPS�
 
 VPS和自己的电脑相比有哪些优势呢？由于VPS托管在专业的机房基础设施中，具有稳定可靠的运行环境，大部分VPS服务商的在线率SLA都在99%以上，可以满足长期不间断运行的需求。另外，机房的商用网络，带宽、线路质量、可用端口等，都比家庭宽带好很多。VPS根据根据自己的应用场景选择相应的配置和线路，为用户提供了更多的选择。
 
+![服务器](https://picx.zhimg.com/70/v2-bafc7f470516232690e285f4cbea7593_1440w.avis?source=172ae18b&biz_tag=Post)
+
 **如何选择 VPS？**
 
 一般国内的VPS主要用来面向国内访问者建站，访问速度快，用户体验好。
@@ -101,6 +103,8 @@ Bare Metal Servers Bare Metal GPU，目前有32个机房，遍布亚洲、欧洲
 
 至于有些云玩家张口就来什么动不动就宕机什么的，估计多半是技术不到家。至于线路问题，到国内的确没有做专门的优化，适合开发和建站，当然对线路要求不高的也可以考虑。还有些云玩家说什么基本没IP能用的可以参考下专栏里的另一篇文章：2023年Vultr VPS的IP还能用吗？ - 知乎 - https://zhuanlan.zhihu.com/p/592126106 ，就知道这些云玩家有多云了。
 
+![Vultr高性价比VPS](https://pic1.zhimg.com/80/v2-f764cbf65f0cf2138b7e82915c090e7c_720w.webp)
+
 官网：[https://www.vultr.com](https://www.vultr.com/?ref=7308093)
 
 **2、基础配置**
@@ -142,7 +146,8 @@ https://zhuanlan.zhihu.com/p/144867146
 
 Dmit成立于2017年，早期DMIT主营美西CN2 GIA业务，后期增加了日本和香港的CN2 GIA机房，2022年增加了圣何塞
 机房，专门做联通的AS4837线路，流量给的比较足。2019年并购HKserversolutions后成为目前美西CN2 GIA带宽最大的主机商，搬瓦工美西DC6机房的CN2 GIA带宽就是租用DMIT的。DMIT支持信用卡、PayPal和支付宝付款。
-Dmit 洛杉矶、香港、东京 CN2 GIA VPS
+
+![Dmit 洛杉矶、香港、东京 CN2 GIA VPS](https://pic1.zhimg.com/80/v2-78c9356645bee048cd766e5ad9f45ace_720w.webp)
 
 官网：[https://www.dmit.io](https://www.dmit.io/aff.php?aff=1608)
 
@@ -180,11 +185,14 @@ VPS常用测试脚本 - 知乎 - https://zhuanlan.zhihu.com/p/117547388
 **1、简介**
 
 狗云成立于2018年，业界资深大佬创办的，后台面板就是老板自己开发的，该面板还有授权给其它同行使用，可以说技术还是很流弊的。狗云经典云部分业务早期主要涉及洛杉矶、圣何塞，后来陆续增加了香港、韩国、俄罗斯、日本、澳大利亚机房，其中香港机房的VPS比较火。弹性云除上面这些还涉及荷兰和德国机房，弹性云是按小时和流量收费的。
-DOGYUN 便宜VPS
+
+![DOGYUN 便宜VPS](https://pica.zhimg.com/80/v2-132cf4fe2ddd320c5f71a4adace1ac08_720w.webp)
 
 官网：[https://www.dogyun.com](https://www.dogyun.com/?ref=cheapgia)
 
 **2、狗云基础配置**
+
+![](https://pic4.zhimg.com/80/v2-0b62813e619034d137c38f48b95959f1_720w.webp)
 
 **3、狗云特点**
 
@@ -210,7 +218,8 @@ DOGYUN 便宜VPS
 搬瓦工成立于2012年，目前已经运营了12年，早年凭借出众的超售OpenVZ架构超售技术，发布大量廉价配置而闻名于江湖，目前已转型到KVM架构。机房目前已经扩充到十四个，主要分布在北美，亚洲有香港和日本机房，欧洲有两个荷兰机房，其中美西、日本、香港均有CN2GIA线路的VPS，荷兰EUNL_9机房是当下很火的AS9929线路，再有就是不常见的迪拜机房。支持信用卡、支付宝和PayPal付款。
 
 搬瓦工主要特点就是稳定，注重fair use，另外搬瓦工所有的套餐都有免费的自动备份和快照，综上两个特点可以看出来还是很适合建站的。
-搬瓦工 VPS
+
+![搬瓦工 VPS](https://pic2.zhimg.com/80/v2-36bf98eb4f5271cfa5feade4b3876543_720w.webp)
 
 官网：[https://www.bandwagonhost.com](https://bwh81.net/aff.php?aff=29647)
 
@@ -250,7 +259,8 @@ DOGYUN 便宜VPS
 Cloudcone成立于2017年，由印度人创办（他们的邮件会有发件人照片，是印度无疑，不知为何想手动狗头一下），早期主营美西MC机房的弹性云（SC2），2021年开始上线VPS服务，采用KVM架构。支持信用卡、支付宝和PayPal付款。
 
 Cloudcone的第一大也是最明显的特点就是页面美工做的特别的好，全站由他们自己开发的。其实选择VPS时有一个诀窍，凡是自己开发控制面板的商家一般都是比较靠谱的，因为他们既然愿意花那么多精力在面板上不用那些现成的，足以说明至少是用心在做的。
-Cloudcone VPS
+
+![Cloudcone VPS](https://picx.zhimg.com/80/v2-bb00b20cf5da51c710914280482f528b_720w.webp)
 
 官网：[https://app.cloudcone.com.cn](https://app.cloudcone.com.cn/?ref=909)
 
@@ -282,6 +292,8 @@ Cloudcone VPS
 **1、简介**
 
 HostDare也是一家印度公司，成立于2014年，公司规模不大，感觉老板是小富即安类型，目前已经稳定运营10年，在圈子里口碑一直还可以。HostDare采用的KVM架构，主营大陆优化线路CN2 GT和CN2 GIA VPS，HostDare只有电信走的双程CN2 GIA，联通和移动回程走的AS4837线路。支持支付宝和PayPal付款。
+
+![HostDare VPS](https://pica.zhimg.com/80/v2-40b20c120d566c658dd18fe7829d3600_720w.webp)
 
 官网：[https://hostdare.com/](https://bill.hostdare.com/aff.php?aff=836)
 
